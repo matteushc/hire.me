@@ -3,7 +3,7 @@ import mysql.connector
 class MySqlConnection:
 
 	def connect_mysql(self):
-		return mysql.connector.connect(user='root', password='root', host='127.0.0.1', database='url_shortening')
+		return mysql.connector.connect(user='root', password='', host='127.0.0.1', database='url_shortening')
 
 	def select_key(self):
 		try:
